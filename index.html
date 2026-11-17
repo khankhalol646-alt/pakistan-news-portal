@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ur" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan News Portal | پاکستان نیوز</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                <span class="live-badge"><span class="pulse"></span> LIVE</span>
+                <span class="date-text" id="current-date">Pakistan News Network • 24/7 Updates</span>
+            </div>
+            <div class="top-bar-right">
+                <span class="edition-tag">🇵🇰 Pakistan Edition</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <div class="logo-icon">🇵🇰</div>
+                <div class="logo-text">
+                    <h1>PAKISTAN <span>NEWS</span></h1>
+                    <p class="tagline">روزنامہ پاکستان — پل پل کی باخبر آواز</p>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="خبریں تلاش کریں / Search news..." disabled>
+                    <button type="button" aria-label="Search">🔍</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-bar">
+            <div class="container nav-container">
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home (صفحہ اول)</a></li>
+                    <li><a href="#">National (قومی)</a></li>
+                    <li><a href="#">Politics (سیاست)</a></li>
+                    <li><a href="#">Business (معیشت)</a></li>
+                    <li><a href="#">Sports (کھیل)</a></li>
+                    <li><a href="#">Technology (ٹیکنالوجی)</a></li>
+                    <li><a href="#">World (عالمی)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breaking News Ticker (Empty State) -->
+    <div class="breaking-news-bar">
+        <div class="container ticker-container">
+            <span class="ticker-label">بریکنگ نیوز / ALERT</span>
+            <div class="ticker-content">
+                <p>فی الحال کوئی فوری بریکنگ نیوز موجود نہیں ہے۔ • No breaking alerts at this moment.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container content-grid">
+            
+            <!-- News Feed (Intentionally Empty) -->
+            <section class="news-feed">
+                <div class="section-header">
+                    <h2>تازہ ترین خبریں <span>/ Latest Updates</span></h2>
+                    <span class="post-count-badge">0 Posts</span>
+                </div>
+
+                <!-- Empty State Card -->
+                <div class="empty-state-card">
+                    <div class="empty-icon-wrapper">
+                        <svg class="empty-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path>
+                            <path d="M18 14h-8"></path>
+                            <path d="M15 18h-5"></path>
+                            <path d="M10 6h8v4h-8V6Z"></path>
+                        </svg>
+                    </div>
+
+                    <h3 class="empty-title">کوئی خبر موجود نہیں ہے</h3>
+                    <p class="empty-subtitle-en">No News Posts Available Yet</p>
+                    <p class="empty-description">
+                        اس ویب سائٹ پر ابھی تک کوئی پوسٹ یا خبر شامل نہیں کی گئی ہے۔ آپ اس لے آؤٹ میں اپنی مرضی کی خبریں شامل کر سکتے ہیں۔
+                    </p>
+                    <p class="empty-description-en">
+                        This news feed is currently empty. New articles and breaking reports will be displayed here once posted.
+                    </p>
+
+                    <div class="empty-action-hint">
+                        <span>📰 Ready for your first news post!</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                
+                <!-- Categories Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">زمرہ جات <span>/ Categories</span></h3>
+                    <ul class="category-list">
+                        <li>
+                            <span class="cat-name">اسلام آباد / راولپنڈی</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                        <li>
+                            <span class="cat-name">لاہور اور پنجاب</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                        <li>
+                            <span class="cat-name">کراچی اور سندھ</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                        <li>
+                            <span class="cat-name">خیبر پختونخوا</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                        <li>
+                            <span class="cat-name">بلوچستان</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                        <li>
+                            <span class="cat-name">کرکٹ و کھیل</span>
+                            <span class="cat-badge">0</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Weather Status Widget -->
+                <div class="widget weather-widget">
+                    <h3 class="widget-title">موسم <span>/ Pakistan Weather</span></h3>
+                    <div class="weather-list">
+                        <div class="weather-item">
+                            <span class="city">Islamabad</span>
+                            <span class="temp">--°C</span>
+                        </div>
+                        <div class="weather-item">
+                            <span class="city">Lahore</span>
+                            <span class="temp">--°C</span>
+                        </div>
+                        <div class="weather-item">
+                            <span class="city">Karachi</span>
+                            <span class="temp">--°C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter / Subscribe Widget -->
+                <div class="widget newsletter-widget">
+                    <h3 class="widget-title">خبرنامہ <span>/ Newsletter</span></h3>
+                    <p>ہر تازہ ترین خبر اپنے ای میل پر حاصل کرنے کے لیے سائن اپ کریں۔</p>
+                    <form class="newsletter-form" onsubmit="return false;">
+                        <input type="email" placeholder="Your Email Address..." required>
+                        <button type="submit">سبسکرائب کریں</button>
+                    </form>
+                </div>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <span>🇵🇰</span> PAKISTAN NEWS
+                </div>
+                <p>پاکستان کی ہر خبر، تجزیے اور تازہ ترین حالات کی باوثوق کوریج۔ یہ ویب سائٹ ایک مکمل اور جدید لے آؤٹ پر مشتمل ہے۔</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>اہم روابط (Links)</h4>
+                <ul>
+                    <li><a href="#">صفحہ اول (Home)</a></li>
+                    <li><a href="#">ہمارے بارے میں (About Us)</a></li>
+                    <li><a href="#">رابطہ کریں (Contact)</a></li>
+                    <li><a href="#">پرائیویسی پالیسی (Privacy Policy)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>نیٹ ورک (Network)</h4>
+                <ul>
+                    <li><a href="#">قومی خبریں</a></li>
+                    <li><a href="#">کاروبار و معیشت</a></li>
+                    <li><a href="#">کھیلوں کی دنیا</a></li>
+                    <li><a href="#">بین الاقوامی حالات</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-content">
+                <p>© 2026 Pakistan News Portal. All rights reserved. (Empty Template)</p>
+                <p>Designed with Clean HTML &amp; CSS</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
